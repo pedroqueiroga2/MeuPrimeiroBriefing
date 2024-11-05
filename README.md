@@ -5,7 +5,7 @@
 
 3. Jovial. Passar a ideia de liberdade para personalização. Site simples e acessível.
 
-4. Tráfico pago, Rede sociais.
+4. Tráfego pago, Rede sociais.
 
 5. 15/01/2025
 
