@@ -3,7 +3,12 @@
 
 2. E-commerce 
 
-3. Jovial. Passar a ideia de liberdade para personalização. Site simples e acessível. 
+3. Jovial. Passar a ideia de liberdade para personalização. Site simples e acessível.
+
+4. Tráfico pago, Rede sociais.
+
+5. 15/01/2025
+
 # Informações gerais
 
 1. Jovem/Adulto. Pessoa estilosa, extrovertida, comunicador e confiável.
