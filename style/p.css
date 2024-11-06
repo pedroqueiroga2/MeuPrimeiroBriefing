@@ -1,0 +1,109 @@
+html{
+    font-size: 72.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    /* background-image: url(https://www.parededepapel.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/a/papel-de-parede-adesivo-de-diamantes-abstratos.jpg); */
+    /* background-image: url(https://thumbs.dreamstime.com/b/diamante-do-brilho-no-fundo-branco-para-o-projeto-152365508.jpg); */
+    background-size: 150px;
+}
+.light_wapprer, .black_wapprer{
+    /* background-color: aliceblue; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_content{
+    max-width: 90vw;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+.main_content_hero_img{
+    width: 100%;
+}
+.main_content_hero_img_content{
+    width: 100%;
+}
+.main_content_title{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.main_content_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.main_content_cards_card_link{
+    text-decoration: none;
+    color: black;
+}
+
+.main_content_cards_card_img{
+    width: 300px;
+    outline: 2px solid rgba(0, 0, 0, 0.199);
+    padding: 2.5rem;
+}
+.main_content_cards_card_img img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+}
+.main_content_cards_card_title{
+    margin-top: .5em;
+    color: gray;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.main_content_cards_card_link:hover .main_content_cards_card_img img{
+    transition: transform .5s;
+    transform: scale(1.2);
+}
+.main_content_cards_card_link:hover .main_content_cards_card_title{
+    color: black;
+}
+.main_content_title_desricao{
+    text-align: center;
+    font-size: 1.4rem;
+    width: 100ch;
+    margin: auto;
+    margin-top: .2rem;
+    margin-bottom: 1rem;
+    line-height: 2;
+}
+.main_content_colecao_title{
+    margin-bottom: 0;
+    margin-top: 7rem;
+}
+.main_content_colecao_cards_card_img{
+    position: relative;
+    overflow: hidden;
+}
+.main_content_colecao_cards_card_img::after{
+    content: "";
+    background-color: rgba(128, 128, 128, 0.541);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: translateY(0);
+}
+.main_content_cards_card_link:hover .main_content_colecao_cards_card_img::after{
+    transition: transform .5s;
+    transform: translateY(-100%);
+}
