@@ -6,4 +6,70 @@ body{
     padding: 0;
     min-height: 100vh;
     min-width: 100vw;
+    /* background-image: url(https://www.parededepapel.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/a/papel-de-parede-adesivo-de-diamantes-abstratos.jpg); */
+    /* background-image: url(https://thumbs.dreamstime.com/b/diamante-do-brilho-no-fundo-branco-para-o-projeto-152365508.jpg); */
+    background-size: 150px;
+}
+.light_wapprer{
+    /* background-color: aliceblue; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_content{
+    max-width: 90vw;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+.main_content_hero_img{
+    width: 100%;
+}
+.main_content_hero_img_content{
+    width: 100%;
+}
+.main_content_categorias{
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.main_content_categorias_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.main_content_categorias_cards_card_link{
+    text-decoration: none;
+    color: black;
+}
+
+.main_content_categorias_cards_card_img{
+    width: 300px;
+    outline: 2px solid rgba(0, 0, 0, 0.199);
+    padding: 2.5rem;
+}
+.main_content_categorias_cards_card_img img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+}
+.main_content_categorias_cards_card_title{
+    margin-top: .5em;
+    color: gray;
+}
+.main_content_categorias_cards_card_link:hover .main_content_categorias_cards_card_img img{
+    transition: transform .5s;
+    transform: scale(1.2);
+}
+.main_content_categorias_cards_card_link:hover .main_content_categorias_cards_card_title{
+    color: black;
 }
