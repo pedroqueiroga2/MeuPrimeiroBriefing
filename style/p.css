@@ -107,3 +107,19 @@ body{
     transition: transform .5s;
     transform: translateY(-100%);
 }
+.black_wapprer{
+    background-color: black;
+    margin-top: 4em;
+}
+.p_footer{
+    text-align: center;
+    padding: 1em;
+}
+.footer_title{
+    color: gold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.footer_content{
+    color: wheat;
+}
