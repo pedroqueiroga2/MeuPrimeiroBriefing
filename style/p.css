@@ -1,5 +1,7 @@
 html{
     font-size: 72.5%;
+    margin: 0;
+    padding: 0;
 }
 body{
     margin: 0;
@@ -9,6 +11,7 @@ body{
     /* background-image: url(https://www.parededepapel.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/a/papel-de-parede-adesivo-de-diamantes-abstratos.jpg); */
     /* background-image: url(https://thumbs.dreamstime.com/b/diamante-do-brilho-no-fundo-branco-para-o-projeto-152365508.jpg); */
     background-size: 150px;
+    background-color: rgb(248, 245, 209);
 }
 .light_wapprer, .black_wapprer{
     /* background-color: aliceblue; */
@@ -109,6 +112,8 @@ body{
 }
 .black_wapprer{
     background-color: black;
+}
+.footer_wapprer{
     margin-top: 4em;
 }
 .p_footer{
@@ -122,4 +127,7 @@ body{
 }
 .footer_content{
     color: wheat;
+}
+.hero_wapprer{
+    background-color: initial;
 }
