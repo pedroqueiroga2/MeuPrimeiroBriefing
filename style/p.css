@@ -65,7 +65,7 @@ body{
 .main_content_cards_card_img img{
     width: 100%;
     height: 100%;
-    transform: scale(1);
+    transform: scale(1.2);
 }
 .main_content_cards_card_title{
     margin-top: .5em;
@@ -76,7 +76,7 @@ body{
 }
 .main_content_cards_card_link:hover .main_content_cards_card_img img{
     transition: transform .5s;
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 .main_content_cards_card_link:hover .main_content_cards_card_title{
     color: black;
@@ -117,6 +117,8 @@ body{
 }
 .footer_wapprer{
     margin-top: 4em;
+    position: absolute;
+    bottom: 0;
 }
 .p_footer{
     text-align: center;
