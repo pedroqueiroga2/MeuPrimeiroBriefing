@@ -11,7 +11,8 @@ body{
     /* background-image: url(https://www.parededepapel.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/a/papel-de-parede-adesivo-de-diamantes-abstratos.jpg); */
     /* background-image: url(https://thumbs.dreamstime.com/b/diamante-do-brilho-no-fundo-branco-para-o-projeto-152365508.jpg); */
     background-size: 150px;
-    background-color: rgb(248, 245, 209);
+    background-color: #feb9c76e;
+    /* color: white; */
 }
 .light_wapprer, .black_wapprer{
     /* background-color: aliceblue; */
@@ -27,6 +28,7 @@ body{
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    margin-top: 4rem;
 }
 
 
@@ -119,15 +121,24 @@ body{
 .p_footer{
     text-align: center;
     padding: 1em;
+    /* background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #DF9F28);
+	background: linear-gradient(left, #8f6B29, #FDE08D, #DF9F28); */
+    background: -webkit-linear-gradient(left, #cc517e, #feb9c7, #cc517e);
+	background: linear-gradient(left, #cc517e, #feb9c7, #cc517e);
+    width: 100%;
 }
 .footer_title{
-    color: gold;
+    color: rgb(2, 2, 2);
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 .footer_content{
-    color: wheat;
+    color: rgb(20, 20, 20);
 }
 .hero_wapprer{
     background-color: initial;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }

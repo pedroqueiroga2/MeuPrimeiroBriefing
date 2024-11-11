@@ -8,6 +8,7 @@ header
     padding: 0;
     /* width: 100vw; */
     /* height: 235px; */
+    
 }
 .navbar
 {
@@ -16,11 +17,11 @@ header
     
     width: 100vw;
     height: 100px;
-    background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #DF9F28);
-	background: linear-gradient(left, #8f6B29, #FDE08D, #DF9F28);
+    background: -webkit-linear-gradient(left, #cc517e, #feb9c7, #cc517e);
+	background: linear-gradient(left, #cc517e, #feb9c7, #cc517e);
     /* background-color: #faaa85; */
     padding: 0;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
 }
 .navbar_content
 {
