@@ -117,8 +117,7 @@ body{
 }
 .footer_wapprer{
     margin-top: 4em;
-    position: absolute;
-    bottom: 0;
+    /* n             */
 }
 .p_footer{
     text-align: center;
@@ -143,4 +142,30 @@ body{
     top: 0;
     left: 0;
     z-index: 1;
+}
+.main_content_login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_def{
+    background-color: aliceblue;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 40%;
+}
+.modal-backdrop{
+    z-index: 0;
+}
+.btn_custom{
+    background-color: transparent;
+    border-radius: 50%;
+    color: black;
+    border-color: black;
+}
+.btn_custom:hover{
+    background-color: black;
 }

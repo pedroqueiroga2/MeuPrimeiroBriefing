@@ -14,7 +14,7 @@
             <div class="navbar">
                 <div class="navbar_content">
                     <div class="navbar_content_logo">
-                        <a href="#"><img src="imagens/Ether.png" alt=""></a>
+                        <a href="index.html"><img src="imagens/Ether.png" alt=""></a>
                     </div>
                     <ul class="navbar_list">
                         <li class="nav-item dropdown">
@@ -30,9 +30,6 @@
                           </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Carrinho</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="login.html">Login</a>
                           </li>
                           <!-- <li class="nav-item">
                             <a class="nav-link" href="#">Suporte</a>
@@ -59,6 +56,37 @@
                         <a href="instagram.com"><img src="imagens/instagram.svg" alt=""></a>
                         <a href="https://www.google.com.br/maps/@-10.8062883,-52.7352218,3a,75y,136.95h,90t/data=!3m7!1e1!3m5!1sUr-fI_ab5Y25-jBRTVPmGw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DUr-fI_ab5Y25-jBRTVPmGw%26yaw%3D136.94963!7i16384!8i8192?coh=205410&entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D"><img src="imagens/map-pin.svg" alt=""></a>
                     </div> -->
+                <div class="user_login">
+                    <button type="button" class="btn btn-primary btn_custom" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="imagens/user.svg" alt="">
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Faça login</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="email_setor">
+                                    <label for="email">Email: </label> 
+                                    <input type="email" name="email" id="email" required checked>
+                                </div>
+                                <div class="senha_setor">
+                                    <label for="senha">Senha: </label> 
+                                    <input type="password" name="senha" id="senha" required checked>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="submit" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
                 </div>
             </div>
         <!-- <div class="details"></div> -->
