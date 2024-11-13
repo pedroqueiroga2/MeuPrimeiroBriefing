@@ -168,4 +168,14 @@ body{
 }
 .btn_custom:hover{
     background-color: black;
+    border-color: black;
+}
+.form_def{
+    width: 100%;
+    
+}
+.email_setor, .senha_setor{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
