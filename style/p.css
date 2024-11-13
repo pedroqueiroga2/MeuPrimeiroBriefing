@@ -172,10 +172,52 @@ body{
 }
 .form_def{
     width: 100%;
-    
+    background-color: #feb9c7a8;
+}
+.modal-title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .email_setor, .senha_setor{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+.form_def label{
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.form_def input{
+    margin-bottom: 2px;
+    border-color: rgba(0, 0, 0, 0.3);
+    
+}
+.form_def input:focus{
+    /* border: none; */
+    outline: none;
+}
+
+form .btn{
+    /* text-transform: uppercase; */
+    /* letter-spacing: 2px; */
+    color: black;
+    background-color:#cc517e;
+    border: none;
+    font-size: 1.2rem;
+    padding: .5rem 3rem;
+}
+form .btn:hover{
+    background-color: #f01766;
+    color: black;
+}
+form .btn-secondary{
+    opacity: .4;
+}
+form .btn-secondary:hover{
+    opacity: 1;
+}
+form .btn a{
+    text-decoration: none;
+    color: inherit;
 }
