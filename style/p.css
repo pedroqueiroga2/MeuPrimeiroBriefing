@@ -1,4 +1,7 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 html{
     font-size: 72.5%;
     margin: 0;
@@ -11,10 +14,9 @@ body{
     min-width: 100vw;
     /* background-image: url(https://www.parededepapel.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/a/papel-de-parede-adesivo-de-diamantes-abstratos.jpg); */
     /* background-image: url(https://thumbs.dreamstime.com/b/diamante-do-brilho-no-fundo-branco-para-o-projeto-152365508.jpg); */
-    background-size: 150px;
-    background-color: #feb9c76e;
+    background-color: #000000;
     /* color: white; */
-    font-family: "Viaoda Libre", serif;
+    font-family: "Montserrat", sans-serif;
 }
 .light_wapprer, .black_wapprer{
     /* background-color: aliceblue; */
@@ -126,7 +128,7 @@ body{
     padding: 1em;
     /* background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #DF9F28);
 	background: linear-gradient(left, #8f6B29, #FDE08D, #DF9F28); */
-    background: -webkit-linear-gradient(left, #cc517e, #feb9c7, #cc517e);
+    background: -webkit-linear-gradient(left, #feb9c7, #feb9c7, #feb9c7);
 	background: linear-gradient(left, #cc517e, #feb9c7, #cc517e);
     width: 100%;
 }
@@ -225,4 +227,22 @@ body{
 .form_def .btn a{
     text-decoration: none;
     color: inherit;
+}
+.btn_custom{
+    border: none;
+}
+.btn_custom img{
+    width: 30px;
+}
+.btn_custom:hover{
+    background-color: #ffd9ec;
+}
+.btn_custom:active{
+    background-color: #f01766;
+}
+
+
+.icone-site {
+    font-size: 30pt;
+    color: aliceblue;
 }
