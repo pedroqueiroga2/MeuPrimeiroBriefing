@@ -43,11 +43,12 @@ body{
     width: 100%;
 }
 .main_content_title{
+    color: #feb9c7;
     text-transform: uppercase;
     font-size: 1.8rem;
     letter-spacing: 2px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     text-align: center;
 }
 .main_content_cards{
@@ -73,7 +74,7 @@ body{
 }
 .main_content_cards_card_title{
     margin-top: .5em;
-    color: gray;
+    color: #feb9c7;
     text-transform: uppercase;
     text-align: center;
     font-size: 1.6rem;
@@ -83,19 +84,20 @@ body{
     transform: scale(1.3);
 }
 .main_content_cards_card_link:hover .main_content_cards_card_title{
-    color: black;
+    color: #fc8ba1;
 }
 .main_content_title_desricao{
+    color: #fccfd8;
     text-align: center;
     font-size: 1.4rem;
     width: 100ch;
     margin: auto;
-    margin-top: .2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     line-height: 2;
 }
 .main_content_colecao_title{
-    margin-bottom: 0;
+    margin-bottom: 2rem;
     margin-top: 7rem;
 }
 .main_content_colecao_cards_card_img{
@@ -140,13 +142,13 @@ body{
 .footer_content{
     color: rgb(20, 20, 20);
 }
-.hero_wapprer{
+/* .hero_wapprer{
     background-color: initial;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 1;
-}
+} */
 .main_content_login{
     width: 100%;
     display: flex;
