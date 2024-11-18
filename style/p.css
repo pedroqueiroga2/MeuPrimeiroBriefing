@@ -130,8 +130,7 @@ body{
     padding: 1em;
     /* background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #DF9F28);
 	background: linear-gradient(left, #8f6B29, #FDE08D, #DF9F28); */
-    background: -webkit-linear-gradient(left, #feb9c7, #feb9c7, #feb9c7);
-	background: linear-gradient(left, #cc517e, #feb9c7, #cc517e);
+    background-color: rgb(254, 185, 199);
     width: 100%;
 }
 .footer_title{
