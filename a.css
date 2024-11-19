@@ -363,12 +363,53 @@ li
     color: #feb9c7;
 }
 
-.offcanvas-header{
+.offcanvas{
     background-color: #feb9c7;
     color: black;
-   
+    max-width: 10vw;
 }
 .offcanvas-body{
-    background-color: #feb9c7;
-    color: blacke;
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+}
+.offcanvas_car_price{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.374);
+    padding-bottom: 1rem;
+}
+.offcanvas_car_price_text{
+    margin-bottom: 0;
+}
+.offcanvas_car_price_value{
+    color: rgb(177, 39, 4);
+}
+.offcanvas_car_reder{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: #f496a9;
+    border: 1px solid rgba(0, 0, 0, 0.198);
+    padding: 1rem;
+    border-radius: 30px;
+}
+.offcanvas_car_reder:hover, .offcanvas_car_reder:focus{
+    background-color: #f2728c;
+
+}
+.offcanvas_car_produtos_img{
+ padding: 0 2rem;   
+}
+.offcanvas_car_produtos_img_content{
+    width: 100%;
+    height: 100%;
+}
+.offcanvas_car_produtos_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    font-weight: 600;
+}
+.offcanvas_car_produtos_qtd::before{
+    content: "X";
 }
