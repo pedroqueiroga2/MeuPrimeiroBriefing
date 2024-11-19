@@ -285,3 +285,90 @@ li
     width: 30rem;
     color: white;
 }
+.main_content_cadastro_forms{
+    background-color: #feb9c7;
+    padding: 2rem;
+    box-shadow: 4px 4px 5px #feb9c77b;
+    width: 50%;
+    margin-bottom: 6rem;
+}
+.main_content_cadastro_forms_content{
+    display: flex;
+    flex-direction: column;
+}
+.main_content_cadastro_forms_content_title{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.main_content_cadastro_forms_content_title_nomes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.main_content_cadastro_forms_content_title_nomes input{
+    flex-grow: 1;
+}
+.main_content_cadastro_forms_content_input{
+    margin: .5rem 0 ;
+    border: none;
+    outline: none;
+    padding: 1rem .2rem;
+    background-color: transparent;
+    border: 1px solid rgba(245, 245, 245, 0.26);
+    border-bottom: 2px solid white;
+    
+}
+.main_content_cadastro_forms_content_input:focus{
+    background-color: rgba(255, 255, 255, 0.233);
+    padding-left: .5rem;
+    transition: padding-left .3s;
+}
+.main_content_cadastro_forms_content_input:focus:valid{
+    border-bottom-color: #06af14;
+}
+.main_content_cadastro_forms_content_input:focus:invalid{
+    border-bottom-color: #c00505 ;
+}
+.main_content_cadastro_forms_content_title_actions{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+.main_content_cadastro_forms_content_title_actions .forms_btn{
+    border: none;
+    padding: 1rem 3rem;
+}
+.forms_btn{
+    background-color: #f2728c;
+}
+.forms_btn:hover, .forms_btn:focus{
+    background-color: #f85475;
+    opacity: 1;
+}
+.forms_btn_2{
+    opacity: .5;
+}
+.btn_carr{
+    background-color: transparent;
+    border: none;
+}
+.btn_carr:hover{
+    border: none;
+    background-color: transparent;
+}
+.bi-cart2{
+    font-size: 2rem;
+    color: #feb9c7;
+}
+
+.offcanvas-header{
+    background-color: #feb9c7;
+    color: black;
+   
+}
+.offcanvas-body{
+    background-color: #feb9c7;
+    color: blacke;
+}

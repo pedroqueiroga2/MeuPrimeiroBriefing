@@ -17,7 +17,7 @@
                 <div class="navbar_content">
                     <div class="navbar_content_logo">
                         <div class="navbar_content_logo_img">
-                            <a href="index.html"><img src="imagens/etherlogo.png" alt=""></a>
+                            <a href="index_2.html"><img src="imagens/etherlogo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="navbar_cotent_item">
@@ -31,7 +31,7 @@
                                     <ul class="dropdown-menu">
                                       <li><a class="dropdown-item navbar_content_list_item_link" href="#">Aneis</a></li>
                                       <li><a class="dropdown-item navbar_content_list_item_link" href="#">Brincos</a></li>
-                                      <li><a class="dropdown-item navbar_content_list_item_link" href="#">Braceletes</a></li>
+                                      <li><a class="dropdown-item navbar_content_list_item_link" href="mainbracelete.html">Braceletes</a></li>
                                       <li><a class="dropdown-item navbar_content_list_item_link" href="#">Colares</a></li>
                                     </ul>
                                   </div>
@@ -72,17 +72,41 @@
                                       <li><a class="dropdown-item navbar_content_list_item_link" href="#">Alma</a></li>
                                       <li><a class="dropdown-item navbar_content_list_item_link" href="#">Morreti</a></li>
                                       <li><a class="dropdown-item navbar_content_list_item_link" href="#">Auceptin</a></li>
-                                      <li><a class="dropdown-item navbar_content_list_item_link" href="#">Todas coleções</a></li>
+                                      <li><a class="dropdown-item navbar_content_list_item_link" href="colecoes.html">Todas coleções</a></li>
                                     </ul>
                                   </div>
-                            </li>
-                            <li class="navbar_content_list_item">
-                                <a href="#" class="navbar_content_list_item_link">Carrinho</a>
                             </li>
                             <li class="navbar_content_list_item login">
                                 <div class="pesquisa_div">
                                     <input type="text" name="pesquisa" id="pesquisa" placeholder="Busque por nome, categoria, código...">
                                     <a href="#"><i class="bi bi-search icons_def"></i></a>
+                                </div>
+                            </li>
+                            <li class="navbar_content_list_item">
+                                <button class="btn btn_carr" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-cart2"></i></button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrinho</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <h2 class="offcanvas_car_price">Subtotal: R$ 1450</h2>
+                                        <a href="carrinho.html" class="offcanvas_car_reder">Ir para o carrinho</a>
+                                        <div class="offcanvas_car_produtos">
+                                            <div class="offcanvas_car_produtos_img">
+                                                <img src="https://pandorajoias.vtexassets.com/assets/vtex.file-manager-graphql/images/7e1b7a27-89a5-4e6f-a904-d51c795ad35e___23f399e209cd7e0fdd3de07dbf0a4db7.png" class="offcanvas_car_produtos_img_content">
+                                            </div>
+                                            <div class="offcanvas_car_produtos_content">
+                                                <p class="offcanvas_car_produtos_price">R$450,00 </p>
+                                                x
+                                                <p class="offcanvas_car_produtos_qtd">1</p>
+                                            </div>  
+                                            <div class="offcanvas_card_produtos_action">
+                                                <button type="button" class="offcanvas_card_produtos_action_btn"><i class="bi bi-trash"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
                             <li class="navbar_content_list_item login">
@@ -112,7 +136,7 @@
                                                 </div>
                                                 <div class="modal-footer">
                                                     <div class="form_actions">
-                                                        <button class="btn btn-secondary" data-bs-dismiss="modal"><a href="#">Criar conta</a></button>
+                                                        <button class="btn btn-secondary" data-bs-dismiss="modal"><a href="cadastro.html">Criar conta</a></button>
                                                         <button type="submit" class="btn btn-primary">Entrar</button>
                                                     </div>
                                                 </div>
@@ -140,7 +164,7 @@
                 <h2 class="main_content_title">Procure por categorias</h2>
                 <div class="main_content_cards">
                     <div class="main_content_cards_card">
-                        <a href="#" class="main_content_cards_card_link">
+                        <a href="mainbracelete.html" class="main_content_cards_card_link">
                             <div class="main_content_cards_card_img">
                                 <img src="https://pandorajoias.vtexassets.com/assets/vtex.file-manager-graphql/images/7e1b7a27-89a5-4e6f-a904-d51c795ad35e___23f399e209cd7e0fdd3de07dbf0a4db7.png" alt="bracelete bonito">
                             </div>
