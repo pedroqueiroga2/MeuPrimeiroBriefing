@@ -80,7 +80,7 @@ body
 }
 .main-button-buttons
 {
-    border: 2px solid rgb(255, 255, 255);
+    
     border-radius: 2px;
     width: 150px;
     height: 70px;
@@ -248,22 +248,4 @@ body
     color: white;
     font-family: "Viaoda Libre", serif; 
     font-size: 24px;
-}
-.navbar_content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    /* background-color: aqua; */
-}
-.navbar_content_logo_img{
-    width: 150px;
-}
-.navbar_content_logo{
-    padding-top: 20px;
-}
-.hero_wapprer{
-    position: sticky;
-    top: 0;
-    left: 0;
 }
