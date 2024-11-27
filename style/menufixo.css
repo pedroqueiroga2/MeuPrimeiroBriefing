@@ -36,3 +36,9 @@
 .footer_content{
     color: rgb(20, 20, 20);
 }
+.modal-backdrop{
+    z-index: -1;
+}
+/* .show{
+    display: none;
+} */
