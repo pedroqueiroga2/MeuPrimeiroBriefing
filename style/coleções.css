@@ -30,7 +30,10 @@
     color: rgb(151, 19, 19);
     font-family: "Spnfont", serif; 
 }
-
+.dropdown-menu .navbar_content_list_item_link {
+    color: rgb(199, 11, 11);
+    font-size: 1.8rem;
+}
 
 body
 {
