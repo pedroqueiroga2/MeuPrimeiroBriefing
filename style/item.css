@@ -57,3 +57,6 @@
 .main_content_produto_content_description_price h3::before{
     content: "R$ ";
 }
+.main_content_produto_content_description_price p{
+    color: #feb9c775;
+}
