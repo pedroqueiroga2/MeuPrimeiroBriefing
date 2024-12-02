@@ -42,5 +42,7 @@
 .main_content_produto_content_description_title{
     color: #feb9c7;
     text-transform: uppercase;
-    text-align: right;
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 2px #946770;
 }
