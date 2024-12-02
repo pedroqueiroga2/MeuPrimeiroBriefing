@@ -50,3 +50,7 @@
 .main_content_produto_content_description_code{
     color: #feb9c775;
 }
+.main_content_produto_content_description_price h3{
+    color: #feb9c7;
+    font-size: 3rem;
+}
