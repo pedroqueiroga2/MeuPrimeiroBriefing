@@ -9,3 +9,8 @@
 .breadcrumb-item.active{
     color: #c7929d49;
 }
+.main_content_produto_content{
+    background-color: #feb9c7;
+    /* flex-grow: 1; */
+    width: 100%;
+}
