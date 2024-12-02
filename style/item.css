@@ -97,3 +97,14 @@
     align-items: center;
     justify-content: center;
 }
+.main_content_produto_content_description_cep_actions input{
+    background-color: transparent;
+    border: 1px solid #feb9c7;
+    border-right: none;
+    outline: none;
+    color: white;
+    padding: .3rem .5rem;
+}
+.main_content_produto_content_description_cep_actions button{
+    
+}
