@@ -54,3 +54,6 @@
     color: #feb9c7;
     font-size: 3rem;
 }
+.main_content_produto_content_description_price h3::before{
+    content: "R$ ";
+}
