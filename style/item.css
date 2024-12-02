@@ -106,5 +106,8 @@
     padding: .3rem .5rem;
 }
 .main_content_produto_content_description_cep_actions button{
-    
+    background-color: #feb9c7;
+    border: none;
+    outline: none;
+    padding: .6rem;
 }
