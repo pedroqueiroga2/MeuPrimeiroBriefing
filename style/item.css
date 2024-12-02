@@ -75,3 +75,12 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+.main_content_produto_content_description_carrinho .btn_guia{
+    border: none;
+    outline: none;
+    background-color: #feb9c7;
+    padding: .6rem 1rem;
+    width: 50%;
+    font-size: 1.4rem; 
+    text-transform: uppercase;   
+}
