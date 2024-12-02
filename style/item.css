@@ -10,7 +10,7 @@
     color: #c7929d49;
 }
 .main_content_produto_content{
-    background-color: #feb9c7;
+    /* background-color: #feb9c7; */
     /* flex-grow: 1; */
     width: 100%;
 }
@@ -19,5 +19,17 @@
     gap: 2rem;
 }
 .main_content_produto_content_imgs{
-    max-width: 45%;
+    max-width: 35%;
+    
+}
+.carousel-item{
+    overflow: hidden;
+}
+.carousel-item img{
+    
+    transform: scale(1);
+    transition: transform 0.2s ease; /* Suaviza a transição */
+}
+.carousel-item img:hover{
+    transform: scale(1.5);
 }
