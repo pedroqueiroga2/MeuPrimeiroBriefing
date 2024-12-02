@@ -34,7 +34,9 @@
     transform: scale(1.5);
 }
 
-  
+.main_content_produto_content_description{
+    width: 100%;
+} 
 .main_content_produto_content_description_title{
     color: #feb9c7;
     text-transform: uppercase;
