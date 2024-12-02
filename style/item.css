@@ -117,5 +117,8 @@
     color: #feb9c7;
 }.main_content_aroduto_content_description_cep_sup{
     text-decoration: none;
+    display: inline-block;
     color: rgba(255, 0, 0, 0.568);
+    margin-top: .5rem;
+    margin-bottom: 1rem;
 }
