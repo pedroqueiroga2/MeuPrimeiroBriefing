@@ -2,3 +2,7 @@
     /* background-color: aqua; */
     align-items: flex-start;
 }
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #feb9c7;
+}
