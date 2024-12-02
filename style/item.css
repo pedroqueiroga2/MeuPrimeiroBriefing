@@ -111,3 +111,7 @@
     outline: none;
     padding: .6rem;
 }
+.main_content_produto_content_description_cep_actions button:hover{
+    outline: #feb9c7;
+    
+}
