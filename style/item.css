@@ -67,3 +67,7 @@
     background-color: transparent;
     color: #feb9c7;
 }
+.main_content_produto_content_description_tamanho_actions button:hover{
+    background-color: #feb9c7;
+    color: black;
+}
