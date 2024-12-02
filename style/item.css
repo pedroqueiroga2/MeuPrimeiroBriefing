@@ -84,3 +84,8 @@
     font-size: 1.4rem; 
     text-transform: uppercase;   
 }
+.main_content_produto_content_description_carrinho .btn_guia:hover{
+    background-color: transparent;
+    outline: 1px solid #feb9c7;
+    color: #feb9c7;
+}
