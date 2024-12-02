@@ -6,3 +6,6 @@
     text-decoration: none;
     color: #feb9c7;
 }
+.breadcrumb-item.active{
+    color: #c7929d49;
+}
