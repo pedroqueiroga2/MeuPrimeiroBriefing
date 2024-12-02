@@ -14,3 +14,14 @@
     /* flex-grow: 1; */
     width: 100%;
 }
+.main_content_produto_content{
+    display: flex;
+    gap: 2rem;
+}
+.main_content_produto_content_imgs{
+    background-color: antiquewhite;
+    width: 20%;
+}
+.carousel-item img{
+    width: 100px;
+}
