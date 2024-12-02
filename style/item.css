@@ -60,3 +60,10 @@
 .main_content_produto_content_description_price p{
     color: #feb9c775;
 }
+.main_content_produto_content_description_tamanho_actions button{
+    padding: .5rem;
+    outline: none;
+    border: 1px solid #feb9c7;
+    background-color: transparent;
+    color: #feb9c7;
+}
