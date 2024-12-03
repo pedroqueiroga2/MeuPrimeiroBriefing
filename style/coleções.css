@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+@font-face {
+    font-family: 'Spnfont'; /* Nome que você dará para a fonte */
+    src: url('/Supernatural_Knight.ttf') format('woff2'),  /* Caminho relativo para o arquivo .woff2 */
+         url('/Supernatural_Knight.ttf') format('woff');   /* Caminho relativo para o arquivo .woff */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.navbar_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    
+    
+    
+}
+.navbar_content_logo_img{
+    width: 150px;
+}
+.navbar_content_logo{
+    padding-top: 20px;
+}
+.btn, .btn-secondary, .dropdown-toggle, .navbar_content_list_item_link
+{
+    color: rgb(151, 19, 19);
+    font-family: "Spnfont", serif; 
+}
+.dropdown-menu .navbar_content_list_item_link {
+    color: rgb(199, 11, 11);
+    font-size: 1.8rem;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.banner
+{
+    width: 100vw;
+    height: 500px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    
+}
+.banner img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: aqua;
+}
+.details
+{
+    width: 100vw;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.details-line
+{
+    width: 100px;
+    height: 0;
+    border-bottom: 1px solid rgb(173, 2, 2);
+}
+.main-
+{
+    width: 100vw;
+    height: 180px;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+.main-title
+{   
+    height: 30px;
+    font-family: "Viaoda Libre", serif;
+    color: white;
+   
+    font-size: 24px;
+}
+.main-subtitle
+{
+   
+    height: 30px;
+    font-size: 14px ;
+    font-family: "Viaoda Libre", serif;
+    color: rgba(255, 255, 255, 0.562);
+}
+.main-button
+{
+    
+    width: 500px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.main-button-buttons
+{
+    
+    border-radius: 2px;
+    width: 150px;
+    height: 70px;
+    background-color: rgb(99, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.main-button-buttons::before
+{
+    content: 'R$';
+}
+.main-button-buttons::after
+{
+    content: ',00';
+}
+.main-button-buttons:hover
+{
+    cursor: pointer;
+    background-color: rgba(99, 1, 1, 0.719);
+}
+.details-lines
+{
+    width: 50px;
+    height: 0;
+    border-bottom: 1px solid pink;
+}
+.BreadP
+{
+    
+    padding-left: 50px;
+    width: 100vw;
+    height: 30px;
+    
+}
+.breadcrumb-item a
+{
+    text-decoration: none;
+    color: bisque;
+    text-decoration: underline;
+}
+.space
+{
+ width: 100vw;
+ height: 640px;
+ 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 20px;
+
+}
+.space-card
+{
+    /* flex-basis: calc(25%-20px); */
+    border: 1px solid white;
+    width: 380px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.space-card-img
+{
+    width: 100%;
+    height: 400px;
+    
+}
+.space-card-img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.title-card
+{
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: "Spnfont", serif; 
+}
+.envolvedora .subtitle-card
+{
+    padding: 10px;
+    color: rgba(180, 180, 180, 0.911);
+    font-size: 16px;
+    font-family: "Viaoda Libre", serif;
+}
+.envolvedora:hover .subtitle-card
+{
+    display: none;
+}
+.envolvedora .button-payment
+{
+    display: none;
+    border: 1px solid white;
+    
+    width: 200px;
+    height: 70px;
+    background-color: rgba(116, 8, 8, 0.925);
+    
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+
+
+}
+.envolvedora:hover .button-payment
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: "Viaoda Libre", serif;
+}
+.button-payment a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.rodapé
+{
+   
+    width: 100vw;
+    height: 40vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.rodapé-title
+{
+    font-family: "Viaoda Libre", serif; 
+    color: white;
+    font-size: 24px;
+}
+.rodapé-subtitle
+{
+    font-family: "Viaoda Libre", serif; 
+    color: rgba(226, 226, 226, 0.877);
+    font-size: 15px;
+}
+.button-mais
+{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.button-mais-border
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid rgb(151, 19, 19);
+    border-radius: 2px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.055);
+    color: white;
+    font-family: "Spnfont", serif; 
+    font-size: 24px;
+}
+.footer_wapprer{
+    margin-top: 4em;
+    /* n             */
+}
+.p_footer{
+    text-align: center;
+    padding: 1em;
+    /* background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #DF9F28);
+	background: linear-gradient(left, #8f6B29, #FDE08D, #DF9F28); */
+    background-color: rgba(180, 0, 0, 0.562);
+    width: 100%;
+}
+.footer_title{
+    font-family: 'Spnfont', sans-serif;
+    color: rgb(2, 2, 2);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.footer_content{
+    color: rgb(255, 255, 255);
+}
+/* .hero_wapprer{
+    background-color: initial;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+} */
