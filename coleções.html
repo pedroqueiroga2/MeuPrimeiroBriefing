@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="a.css">
+        <link rel="stylesheet" href="style/p.css">
+        <link rel="stylesheet" href="style/menufixo.css">
+        <link rel="stylesheet" href="style/coleções.css">
+    <title>Supernatural</title>
+</head>
+<div class="black_wapprer hero_wapprer">
+    <header class="wapprer hero">
+        <div class="navbar">
+            <div class="navbar_content">
+                <div class="navbar_content_logo">
+                    <div class="navbar_content_logo_img">
+                        <a href="index_2.html"><img src="imagens/etherlogo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="navbar_cotent_item">
+                    <ul class="navbar_content_list">
+                        <li class="navbar_content_list_item">
+                            <div class="dropdown">
+                                <a class="btn btn-secondary dropdown-toggle navbar_content_list_item_link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Categorias
+                                </a>
+                              
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="#">Aneis</a></li>
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="#">Brincos</a></li>
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="#">Braceletes</a></li>
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="#">Colares</a></li>
+                                </ul>
+                              </div>
+                        </li>
+                        <li class="navbar_content_list_item">
+                            <div class="dropdown">
+                                <a class="btn btn-secondary dropdown-toggle navbar_content_list_item_link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   Gênero
+                                </a>
+                              
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="#">Masculino</a></li>
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="#">Feminino</a></li>
+                                </ul>
+                              </div>
+                        </li>
+                        <li class="navbar_content_list_item">
+                            <div class="dropdown">
+                                <a class="btn btn-secondary dropdown-toggle navbar_content_list_item_link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   Sessão
+                                </a>
+                              
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="#">Adulto</a></li>
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="#">Jovem</a></li>
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="#">Ifantil</a></li>
+                                </ul>
+                              </div>
+                        </li>
+                        <li class="navbar_content_list_item">
+                            <div class="dropdown">
+                                <a class="btn btn-secondary dropdown-toggle navbar_content_list_item_link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   Coleções
+                                </a>
+                              
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="#">Supernatural</a></li>
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="#">Alma</a></li>
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="#">Morreti</a></li>
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="#">Auceptin</a></li>
+                                  <li><a class="dropdown-item navbar_content_list_item_link" href="colecoes.html">Todas coleções</a></li>
+                                </ul>
+                              </div>
+                        </li>
+                        <li class="navbar_content_list_item login">
+                            <div class="pesquisa_div">
+                                <input type="text" name="pesquisa" id="pesquisa" placeholder="Busque por nome, categoria, código...">
+                                <a href="#"><i class="bi bi-search icons_def"></i></a>
+                            </div>
+                        </li>
+                        <li class="navbar_content_list_item login">
+                            <div class="user_login">
+                                <button type="button" class="btn btn-primary btn_custom" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="bi bi-person-circle icone-site"></i>
+                                </button>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <form class="form_def" method="get">
+                                            <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Faça login</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="email_setor">
+                                                    <label for="email">Email: </label> 
+                                                    <input type="email" name="email" id="email" required checked>
+                                                </div>
+                                                <div class="senha_setor">
+                                                    <label for="senha">Senha: </label> 
+                                                    <input type="password" name="senha" id="senha" required checked>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <div class="form_actions">
+                                                    <button class="btn btn-secondary" data-bs-dismiss="modal"><a href="cadastro.html">Criar conta</a></button>
+                                                    <button type="submit" class="btn btn-primary">Entrar</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>        
+                        </li>
+                    </ul>
+
+            </div>
+            </div>
+        </div>
+    <!-- <div class="details"></div> -->
+    </header>
+    <!-- <div class="header_img"><img src="imagens/enca.png" alt=""></div> -->
+</div>
+<body>
+    <div class="banner">
+        <a href="#"><img src="imagens/WebsiteBanner_SupernaturalCollection_030322_fe3102fa-61d0-4aff-9db1-5086c204f5a8.webp" alt=""></a>
+    </div>
+    
+
+    <div class="main-">
+        <div class="main-title">
+            Procure pelo melhor preço
+        </div>
+        <div class="main-subtitle">
+            consectetur adipisicing elit.
+        </div>
+
+        
+
+        <div class="main-button">
+            <div class="main-button-buttons">
+                000
+            </div>
+
+            <div class="main-button-buttons">
+                000
+            </div>
+
+            <div class="main-button-buttons">
+                000
+            </div>
+        </div>
+        <div class="details">
+            <div class="details-line"></div>
+        </div>
+    </div>
+
+
+    <div class="BreadP">
+
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+            aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Braceletes</li>
+            </ol>
+        </nav>
+
+    </div>
+    <div class="space">
+        <div class="space-card">
+            <div class="space-card-img"><a href=""><img src="imagens/f636f46041b80b675a50c3109542efa2.jpg" alt=""></a>
+            </div>
+            
+            <div class="space-card-font">
+                <h1 class="title-card">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+            </div>
+        <div class="envolvedora">
+            <div class="space-card-subtitle">
+                <h6 class="subtitle-card"> Unde aperiam esse, deserunt accusantium cupiditate quaerat dolorum tenetur
+                    iusto</h6>
+            </div>
+            <div class="button-payment">
+                <strong><a href="#">Comprar</a></strong>
+            </div>
+        </div>
+    </div>
+
+    <div class="space-card">
+        <div class="space-card-img"><a href=""><img src="imagens/joias2.jpg" alt=""></a>
+        </div>
+        
+        <div class="space-card-font">
+            <h1 class="title-card">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        </div>
+    <div class="envolvedora">
+        <div class="space-card-subtitle">
+            <h6 class="subtitle-card"> Unde aperiam esse, deserunt accusantium cupiditate quaerat dolorum tenetur
+                iusto</h6>
+        </div>
+        <div class="button-payment">
+            <strong><a href="#">Comprar</a></strong>
+        </div>
+    </div>
+</div>
+
+<div class="space-card">
+    <div class="space-card-img"><a href=""><img src="imagens/joias3.jpg" alt=""></a>
+    </div>
+    
+    <div class="space-card-font">
+        <h1 class="title-card">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    </div>
+<div class="envolvedora">
+    <div class="space-card-subtitle">
+        <h6 class="subtitle-card"> Unde aperiam esse, deserunt accusantium cupiditate quaerat dolorum tenetur
+            iusto</h6>
+    </div>
+    <div class="button-payment">
+        <strong><a href="#">Comprar</a></strong>
+    </div>
+</div>
+</div>
+
+<div class="space-card">
+    <div class="space-card-img"><a href=""><img src="imagens/joias4.jpeg" alt=""></a>
+    </div>
+    
+    <div class="space-card-font">
+        <h1 class="title-card">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    </div>
+<div class="envolvedora">
+    <div class="space-card-subtitle">
+        <h6 class="subtitle-card"> Unde aperiam esse, deserunt accusantium cupiditate quaerat dolorum tenetur
+            iusto</h6>
+    </div>
+    <div class="button-payment">
+        <strong><a href="#">Comprar</a></strong>
+    </div>
+</div>
+</div>
+    </div>
+    <div class="button-mais">
+        <div class="button-mais-border">
+            Ver mais
+        </div>
+    </div>
+    <div class="details">
+        <div class="details-line"></div>
+    </div>
+
+    <div class="rodapé">
+        <div class="rodapé-title"><strong>Lorem ipsum dolor sit amet</strong>
+            <div class="rodapé-subtitle">consectetur soluta incidunt, in, architecto dignissimos ipsa ad rerum nulla perspiciatis beatae repellendus, ex repellat et velit deserunt mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellendus adipisci rem minima quas quis harum. Similique maxime quo doloremque sit voluptatum pariatur sunt voluptatem illum, iusto eveniet, atque vel.</div></div>
+            
+        
+
+        <div class="rodapé-title"><strong>Lorem ipsum dolor sit amet</strong>
+            <div class="rodapé-subtitle">consectetur soluta incidunt, in, architecto dignissimos ipsa ad rerum nulla perspiciatis beatae repellendus, ex repellat et velit deserunt mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellendus adipisci rem minima quas quis harum. Similique maxime quo doloremque sit voluptatum pariatur sunt voluptatem illum, iusto eveniet, atque vel.</div></div>
+        
+
+        <div class="rodapé-title"><strong>Lorem ipsum dolor sit amet</strong>
+            <div class="rodapé-subtitle">consectetur soluta incidunt, in, architecto dignissimos ipsa ad rerum nulla perspiciatis beatae repellendus, ex repellat et velit deserunt mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio repellendus adipisci rem minima quas quis harum. Similique maxime quo doloremque sit voluptatum pariatur sunt voluptatem illum, iusto eveniet, atque vel.</div></div>
+        
+    </div>
+    <div class="black_wapprer footer_wapprer">
+        <footer class="wapprer p_footer">
+            <h1 class="footer_title">Ether</h1>
+            <p class="footer_content">Copyright  ©2024, , todos os direitos reservados.</p> 
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
