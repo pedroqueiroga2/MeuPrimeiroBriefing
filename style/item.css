@@ -129,3 +129,6 @@
 summary{
     font-size: 2rem;
 }
+details p {
+    font-size: 1.4rem;
+}
